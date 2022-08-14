@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <input type='text' id='heb' ref={inputRef} onChange={handleClick} />
-        {/* <button onClick={handleClick}>transform</button> */}
+        
         <button className="btn"
           onClick={() => navigator.clipboard.writeText(eng)}>{(eng)}</button>
       </header>
